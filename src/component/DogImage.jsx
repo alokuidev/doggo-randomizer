@@ -9,7 +9,7 @@ const DogImage = () => {
     queryKey: ["post"],
     queryFn: fetchApi,
     refetchOnWindowFocus:false,
-    refetchOnMount:false
+    refetchOnMount:true
   });
   return (
     <div className="container">
